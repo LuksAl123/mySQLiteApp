@@ -1,4 +1,15 @@
 {
-  "name": "mySQLiteApp",
-  "slug": "mySQLiteApp"
+  "expo": {
+    "scheme": "acme",
+    "newArchEnabled": true,
+    "plugins": [
+      "expo-router",
+      "expo-sqlite"
+    ],
+    "name": "mySQLiteApp",
+    "slug": "mySQLiteApp",
+    "experiments": {
+      "typedRoutes": true
+    }
+  }
 }
